@@ -1,0 +1,49 @@
+/* Intro */
+.intro {
+    margin:0 0 1.5em;
+    font-size:1.8em;
+    line-height:1.6em;
+    span {
+        font-weight:100
+    }
+}
+
+/* Grid List  */
+.grid-list-wrapper {
+    margin:0 0 4em
+}
+
+.grid-list {
+    margin:0 0 3em;
+    position:relative;
+    img {
+        width:100%;
+        height:auto;
+    }
+}
+
+.overlay{
+    a {
+        color:$body-content-color;
+        padding:2em 2em;
+        display:block;
+    }  
+    h2 {
+        font-size:1.2em;
+        line-height:1.35em;
+        margin:0;
+        padding:.5em 0;
+    }
+    h3 {
+        display:none;
+        padding:0;
+        font-size:1.2em;
+        line-height:1em
+    }
+    span {
+        text-transform:uppercase;
+        font-weight:100;
+        margin-right:1em
+    }
+} 
+ 

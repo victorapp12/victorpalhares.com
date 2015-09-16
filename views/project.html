@@ -1,0 +1,23 @@
+<div class="row grid-list-wrapper no-gutter-space">
+	
+	<div class="col-sm-4">
+		<h1>{{dados.name}}</h1>
+			
+		<p><b>Agencia: </b> {{dados.agency}}</p>
+		<p><b>Ano: </b>{{dados.dt}}</p>
+		<p><b>Categoria: </b> {{dados.category}}</p>
+		<!--<p>{{dados.description}}</p>-->
+		
+		<p class="link-project" ng-show="dados.links.webSite"><a target="_blank" href="{{dados.links.webSite}}"><i class="fa fa fa-laptop"></i> Visitar Website</a></p>
+		<p class="link-project" ng-show="dados.links.appStore"><a target="_blank" href="{{dados.links.appStore}}"><i class="fa fa-apple"></i> App Store</a></p>
+		<p class="link-project" ng-show="dados.links.googlePlay"><a target="_blank" href="{{dados.links.googlePlay}}"><i class="fa fa-android"></i> Google Play</a></p>
+			
+			
+		
+	</div>
+	
+	<div class="col-sm-8 bg-project" style="background:url('{{dados.media.thumb}}');">
+		
+	</div>
+	
+</div>

@@ -1,0 +1,62 @@
+#ngProgress-container{
+    position: absolute;
+    width: 100%;
+    top:0;
+}
+
+.col-lg-4{
+    padding: 0;
+}
+
+@media only screen and (min-width: 300px) {
+.overlay{
+    position:absolute;
+    width:100%;
+    bottom:0;
+    a{
+        padding: 0;
+    }
+    a.tit-project{
+      padding: .6em;
+      background-color: rgba(64, 64, 64, 0.3);
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      color: #fff;
+      font-size: 1.5em;
+      
+      span{
+          font-size: .8em;
+      }
+    }
+}
+}
+
+@media only screen and (min-width: 480px)  {
+.overlay{
+    position:absolute;
+    width:100%;
+    bottom:0;
+    a{
+        padding: 0;
+    }
+    a.tit-project{
+      padding: .6em;
+      background-color: rgba(64, 64, 64, 0.3);
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      color: #fff;
+      font-size: 1.5em;
+      
+      span{
+          font-size: .8em;
+      }
+    }
+}
+}
+
+
+
+
+

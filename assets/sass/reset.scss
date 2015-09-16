@@ -1,0 +1,39 @@
+html {
+    background-color: $background-color;
+}
+
+.row > div,.container {
+    transition:all .25s ease-in-out;
+    -moz-transition:all .25s ease-in-out;
+    -o-transition:all .25s ease-in-out;
+    -webkit-transition:all .25s ease-in-out
+}
+
+body {
+    font-family:Lato,sans-serif;
+    color: $body-content-color;
+    min-width: 300px;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin:0 0 1em;
+    padding:0
+}
+
+a {
+    cursor:pointer;
+    text-decoration:none!important;
+    transition:all .25s ease-in-out;
+    -moz-transition:all .25s ease-in-out;
+    -o-transition:all .25s ease-in-out;
+    -webkit-transition:all .25s ease-in-out;
+    color: $link-color;
+}
+
+a:hover{
+    color: $link-hover-color;
+}
+
+.inline-block {
+    display:inline-block
+}

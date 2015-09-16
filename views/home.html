@@ -1,0 +1,19 @@
+<div class="row grid-list-wrapper no-gutter-space" id="shotsByPlayerId">
+
+	<div class="col-sm-6 col-md-4 col-lg-4" ng-repeat="item in dados">
+		<div class="grid-list">
+			<a href="/project/{{$index}}">
+				<img class="img-responsive img-articles" src="{{item.media.thumb}}">
+
+				<div class="overlay">
+					<a href="/project/{{$index}}" class="tit-project">
+						{{item.name}}
+						<br>
+						<span>{{item.dt}}</span>
+					</a>
+				</div>
+			</a>
+		</div>
+	</div>
+
+</div>
