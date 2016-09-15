@@ -1,0 +1,8 @@
+.idea
+node_modules
+.DS_Store
+build/js
+build/css/*.css
+rev-manifest.json
+prepros.cfg
+robots.txt
