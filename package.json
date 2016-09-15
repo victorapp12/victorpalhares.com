@@ -2,5 +2,28 @@
   "name": "victorpalhares",
   "version": "1.0.0",
   "description": "Arquivo json",
-  "author": "Mago <hello@victorpalhares.com>"
+  "author": "Mago <hello@victorpalhares.com>", 
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-concat": "^2.6.0",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-uglify": "*",
+    "gulp-watch": "^4.3.5",
+    "gulp-minify-html": "*",
+    "gulp-rev": "*",
+    "gulp-rev-replace": "*",
+    "gulp-html-replace": "*",
+    "gulp-minify-css": "*",
+    "gulp-awspublish": "*",
+    "gulp-cloudfront": "*",
+    "gulp-s3": "*",
+    "gulp-gzip": "*",
+    "express": "*",
+    "compression": "*",
+    "connect-modrewrite": "*",
+    "prerender-node": "*",
+    "redis": "*",
+    "gulp-ng-constant": "*",
+    "gulp-sass": "*"
+  }
 }
