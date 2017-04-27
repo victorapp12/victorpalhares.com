@@ -1,42 +1,37 @@
 @media only screen and (min-width: 768px) {
-.grid-list{
-    margin: 0;
-}
-.overlay{
-    a{
+    .grid-list {
+        margin: 0;
+    }
+    .overlay {
+        a {
+            padding: 0;
+        }
+        a.tit-project {
+            padding: .6em;
+            background-color: rgba(64, 64, 64, 0.3);
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            color: #fff;
+            font-size: 1.5em;
+            span {
+                font-size: .8em;
+            }
+        }
+    }
+    header {
+        margin: 2em 0px;
+        padding: 20px 30px
+    }
+    .navbar-header {
+        margin: 0;
         padding: 0;
     }
-    a.tit-project{
-      padding: .6em;
-      background-color: rgba(64, 64, 64, 0.3);
-      position: absolute;
-      width: 100%;
-      bottom: 0;
-      color: #fff;
-      font-size: 1.5em;
-      
-      span{
-          font-size: .8em;
-      }
+    .intro {
+        font-size: 1.6em;
+        margin: 0 0 .9em
     }
-}
-  
-header {
-    margin:2em 0px;
-    padding:20px 30px
-}
-    
-.navbar-header{
-    margin: 0;
-    padding:0;
-}
-
-.intro {
-    font-size:1.6em;
-    margin:0 0 .9em
-}
-
-.navbar-nav.social {
-    float:right
-}
+    .navbar-nav.social {
+        float: right
+    }
 }

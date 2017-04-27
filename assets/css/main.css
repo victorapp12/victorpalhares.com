@@ -10,7 +10,7 @@ html {
   -webkit-transition: all .25s ease-in-out; }
 
 body {
-  font-family: Lato, sans-serif;
+  font-family: Lato,sans-serif;
   color: #404040;
   min-width: 300px; }
 
@@ -40,6 +40,15 @@ a:hover {
 
 .col-lg-4 {
   padding: 0; }
+
+.title-section {
+  padding: 50px 200px !important; }
+  .title-section h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 100;
+    font-size: 50px; }
 
 @media only screen and (min-width: 300px) {
   .overlay {
@@ -80,7 +89,7 @@ a:hover {
 /* Navigation */
 .navbar-header {
   margin: -15px;
-  padding: 0 15px; }
+  padding: 0  15px; }
 
 .navbar-collapse {
   width: 100%; }
@@ -142,9 +151,11 @@ a:hover {
   -moz-transition: color .25s ease-in-out;
   -o-transition: color .25s ease-in-out;
   -webkit-transition: color .25s ease-in-out; }
+
 .navbar-nav li a:hover {
   background: none;
   color: #c6463d; }
+
 .navbar-nav li a:focus {
   background: none; }
 
@@ -171,16 +182,19 @@ a:hover {
   color: #404040;
   padding: 2em 2em;
   display: block; }
+
 .overlay h2 {
   font-size: 1.2em;
   line-height: 1.35em;
   margin: 0;
   padding: .5em 0; }
+
 .overlay h3 {
   display: none;
   padding: 0;
   font-size: 1.2em;
   line-height: 1em; }
+
 .overlay span {
   text-transform: uppercase;
   font-weight: 100;
@@ -208,18 +222,22 @@ footer {
 
 .nav-footer ul#menu {
   float: left; }
+
 .nav-footer ul#social {
   float: right; }
+
 .nav-footer li {
   list-style: none;
   margin: .5em;
   display: inline-block; }
+
 .nav-footer a {
   color: #999999;
   transition: color .25s ease-in-out;
   -moz-transition: color .25s ease-in-out;
   -o-transition: color .25s ease-in-out;
   -webkit-transition: color .25s ease-in-out; }
+
 .nav-footer a:hover {
   color: #c6463d; }
 
@@ -315,9 +333,10 @@ header {
     margin: 0;
     padding: 0; }
   .no-gutter-space {
-    margin: 0 div;
-    margin-margin: 0;
-    margin-padding: 0; }
+    margin: 0; }
+    .no-gutter-space div {
+      margin: 0;
+      padding: 0; }
   .navbar {
     padding: 3em 15px 1em; }
   .intro {
