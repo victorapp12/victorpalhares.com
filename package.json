@@ -24,6 +24,7 @@
     "prerender-node": "*",
     "redis": "*",
     "gulp-ng-constant": "*",
-    "gulp-sass": "*"
+    "gulp-sass": "*", 
+    "gatsby": "*"
   }
 }
