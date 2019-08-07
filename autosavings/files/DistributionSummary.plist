@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Autosavings_Example.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>7DEF40E8A61377E0A2371311D84C0C1215971CF7</string>
+				<key>dateExpires</key>
+				<string>23/06/2020</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>7DEF40E8A61377E0A2371311D84C0C1215971CF7</string>
+						<key>dateExpires</key>
+						<string>23/06/2020</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>AutoSavings.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>R7SXCG38C3</string>
+						<key>name</key>
+						<string>Victor Gil</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>7DEF40E8A61377E0A2371311D84C0C1215971CF7</string>
+						<key>dateExpires</key>
+						<string>23/06/2020</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Hero.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>R7SXCG38C3</string>
+						<key>name</key>
+						<string>Victor Gil</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>7DEF40E8A61377E0A2371311D84C0C1215971CF7</string>
+						<key>dateExpires</key>
+						<string>23/06/2020</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>ObjectMapper.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>R7SXCG38C3</string>
+						<key>name</key>
+						<string>Victor Gil</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>R7SXCG38C3.com.santander.globile.AutoSavings</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>R7SXCG38C3</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>R7SXCG38C3.com.santander.globile.AutoSavings</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Autosavings_Example.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>3489ad93-70dd-420f-905f-76c06dc27560</string>
+				<key>name</key>
+				<string>Wildcard Santander Globile AdHoc</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>R7SXCG38C3</string>
+				<key>name</key>
+				<string>Victor Gil</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
